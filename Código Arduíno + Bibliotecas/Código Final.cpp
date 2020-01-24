@@ -82,7 +82,6 @@ void leituraRfid() {
 
     if (strID.indexOf(SR_RIBEIRO) >= 0) {
         vaga1.mudaEstado(vg1);
-        vaga1.printSerial();
         cancela.apaga2();
         cancela.acende();
         s.usarCancela();
@@ -93,7 +92,6 @@ void leituraRfid() {
     }
     else if (strID.indexOf(SR_LEANDRO) >= 0) {
         vaga2.mudaEstado(vg2);
-        vaga2.printSerial();
         cancela.apaga2();
         cancela.acende();
         s.usarCancela();
@@ -104,7 +102,6 @@ void leituraRfid() {
     }
     else if (strID.indexOf(SR_EDGAR) >= 0) {
         vaga3.mudaEstado(vg3);
-        vaga3.printSerial();
         cancela.apaga2();
         cancela.acende();
         s.usarCancela();
@@ -115,7 +112,6 @@ void leituraRfid() {
     }
     else if (strID.indexOf(SR_LACOUTH) >= 0) {
         vaga4.mudaEstado(vg4);
-        vaga4.printSerial();
         cancela.apaga2();
         cancela.acende();
         s.usarCancela();
@@ -183,8 +179,13 @@ void leituraSerial(){
 
 void envioSerial(){
     doc["Vaga 1"] = vaga1.getEstadoVaga();
+	serializeJson(doc, Serial);
     doc["Vaga 2"] = vaga2.getEstadoVaga();
+	serializeJson(doc, Serial);
     doc["Vaga 3"] = vaga3.getEstadoVaga();
+	serializeJson(doc, Serial);
     doc["Vaga 4"] = vaga4.getEstadoVaga();
+	serializeJson(doc, Serial);
     doc["Vaga 5"] = vaga5.getEstadoVaga();
+	serializeJson(doc, Serial);
 }

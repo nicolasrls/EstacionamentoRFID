@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'widget.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.14.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -257,28 +257,28 @@ public:
 
     void retranslateUi(QWidget *Widget)
     {
-        Widget->setWindowTitle(QApplication::translate("Widget", "Widget", nullptr));
-        actionatualizar->setText(QApplication::translate("Widget", "atualizar", nullptr));
-        label->setText(QApplication::translate("Widget", "<html><head/><body><p align=\"center\">E<span style=\" font-size:10pt;\">stacionamento Empresarial 2019.2</span></p></body></html>", nullptr));
-        btnConectar->setText(QApplication::translate("Widget", "Conectar", nullptr));
-        label_3->setText(QApplication::translate("Widget", "Velocidade:", nullptr));
-        comboBoxvel->setItemText(0, QApplication::translate("Widget", "115200", nullptr));
+        Widget->setWindowTitle(QCoreApplication::translate("Widget", "Widget", nullptr));
+        actionatualizar->setText(QCoreApplication::translate("Widget", "atualizar", nullptr));
+        label->setText(QCoreApplication::translate("Widget", "<html><head/><body><p align=\"center\">E<span style=\" font-size:10pt;\">stacionamento Empresarial 2019.2</span></p></body></html>", nullptr));
+        btnConectar->setText(QCoreApplication::translate("Widget", "Conectar", nullptr));
+        label_3->setText(QCoreApplication::translate("Widget", "Velocidade:", nullptr));
+        comboBoxvel->setItemText(0, QCoreApplication::translate("Widget", "115200", nullptr));
 
-        label_2->setText(QApplication::translate("Widget", "Porta Serial:", nullptr));
+        label_2->setText(QCoreApplication::translate("Widget", "Porta Serial:", nullptr));
         label_status->setText(QString());
-        groupBox->setTitle(QApplication::translate("Widget", "Controle do estacionamento:", nullptr));
-        btnLiberaCancela->setText(QApplication::translate("Widget", "Liberar Cancela", nullptr));
-        label_4->setText(QApplication::translate("Widget", "Vagas dispon\303\255veis: ", nullptr));
-        label_5->setText(QApplication::translate("Widget", "Vaga 1:", nullptr));
-        label_6->setText(QApplication::translate("Widget", "Vaga 2:", nullptr));
-        label_7->setText(QApplication::translate("Widget", "Vaga 3:", nullptr));
-        label_8->setText(QApplication::translate("Widget", "Vaga 4:", nullptr));
-        label_9->setText(QApplication::translate("Widget", "Vaga 5:", nullptr));
-        btnVaga1->setText(QApplication::translate("Widget", "Alterar", nullptr));
-        btnVaga2->setText(QApplication::translate("Widget", "Alterar", nullptr));
-        btnVaga3->setText(QApplication::translate("Widget", "Alterar", nullptr));
-        btnVaga4->setText(QApplication::translate("Widget", "Alterar", nullptr));
-        btnVaga5->setText(QApplication::translate("Widget", "Alterar", nullptr));
+        groupBox->setTitle(QCoreApplication::translate("Widget", "Controle do estacionamento:", nullptr));
+        btnLiberaCancela->setText(QCoreApplication::translate("Widget", "Liberar Cancela", nullptr));
+        label_4->setText(QCoreApplication::translate("Widget", "Vagas dispon\303\255veis: ", nullptr));
+        label_5->setText(QCoreApplication::translate("Widget", "Vaga 1:", nullptr));
+        label_6->setText(QCoreApplication::translate("Widget", "Vaga 2:", nullptr));
+        label_7->setText(QCoreApplication::translate("Widget", "Vaga 3:", nullptr));
+        label_8->setText(QCoreApplication::translate("Widget", "Vaga 4:", nullptr));
+        label_9->setText(QCoreApplication::translate("Widget", "Vaga 5:", nullptr));
+        btnVaga1->setText(QCoreApplication::translate("Widget", "Alterar", nullptr));
+        btnVaga2->setText(QCoreApplication::translate("Widget", "Alterar", nullptr));
+        btnVaga3->setText(QCoreApplication::translate("Widget", "Alterar", nullptr));
+        btnVaga4->setText(QCoreApplication::translate("Widget", "Alterar", nullptr));
+        btnVaga5->setText(QCoreApplication::translate("Widget", "Alterar", nullptr));
         labelVaga1->setText(QString());
         labelVaga2->setText(QString());
         labelVaga3->setText(QString());
