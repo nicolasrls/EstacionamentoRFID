@@ -26,3 +26,12 @@ Na interface desenvolvida através do Qt Creator é possível controlar e monito
 Ao observar a imagem evidencia-se a simplicidade de uso que o programa propicia ao seu usuário para que este possa tirar o maior proveito da ferramenta. A interface é bastante auto-explicativa sendo apenas necessário que o usuário estabeleça a conexão entre o programa e o arduíno, para isso ele deverá clicar no botão "conectar", sendo assim possível controlar e monitorar o estacionamento.
 
 
+### COLABORADORES:
+### LEANDRO GONÇALVES DE ALENCAR
+### EMAIL: leandro.alencar@academico.ifpb.edu.br
+
+### NICOLAS RIBEIRO LIMA DE SOUZA DOMICIANO
+### EMAIL: nicolas.ribeiro@academico.ifpb.edu.br  
+
+### DANUBIO EDGAR SILVA FILHO
+### EMAIL: danubio.filho@academico.ifpb.edu.br
