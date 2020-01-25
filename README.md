@@ -15,6 +15,9 @@ Diversos são os benefícios do estacionamento inteligente, dentre eles a segura
 
 Inicialmente os funcionários da empresa serão cadastrados no sistema e irão receber uma TAG, que será verificada pelo leitor RFID validando ou não a entrada do funcionário. Se após a verificação o leitor RFID constatar que aquela TAG está cadastrada no programa, a cancela irá subir permitindo a entrada do funcionário que deverá se dirigir a sua vaga, que também já está definida. Caso o usuário não leve sua TAG ele deverá se identificar na portaria do estacionamento para que através do controle realizado pela interface desenvolvida no Qt Creator, o funcionário da portaria possa liberar a cancela, permitindo assim a entrada do usuário no estacionamento.
 
+![enter image description here](https://github.com/nicolasrls/EstacionamentoRFID/blob/master/Imagens/ideia2.png)
+
+Para entrar no estacionamento o usuário devera posicionar sua TAG de forma que o leitor possa executar sua leitura, permitindo assim a entrada do usuário no estacionamento.
 ### A interface no Qt Creator:
 Na interface desenvolvida através do Qt Creator é possível controlar e monitorar o comportamento do estacionamento no decorrer do dia. Após conectar o programa com o arduíno o usuário poderá liberar a cancela e alterar o estado das vagas manualmente, caso seja necessário. Uma aplicação bastante útil do programa seria liberar a cancela para um determinado usuário do estacionamento e modificar o estado da sua vaga para ocupado.
 
