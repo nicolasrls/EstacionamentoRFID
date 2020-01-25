@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Estacionamento</title>
+	<!-- Linkando o Framework Bootstrap ao site -->
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<!-- CODIGO CSS -->
+	<style type="text/css">
+		body
+		{
+			background-image: url(estacionamento.png);
+			/* Tornadno a imagem o plano de fundo do site */
+		}
+		#main
+		{
+			font-size: 20pt; /*Atribuindo o tamanho 20 na fonte da letra */
+			display: initial; /*Esta função torna o botao inicialmente visivel */
+		}
+		#sec
+		{
+			display: none; /*Esta função torna o botao incialmente desativado(invisivel) */
+			font-size: 20pt; /*Atribuindo o tamanho 20 na fonte da letra */ 
+		}
+	</style>
+</head>
+<body>
+	<!--CODIGO HTML -->
+
+	<div align="center">
+		<a id="main" onclick="abre()"  href="#" class="btn btn-danger">Abrir Cancela</a> <!--Botao Abrir -->
+		<a id="sec" onclick="fecha()"  href="#" class="btn btn-danger">Fechar Cancela</a> <!--Botao Fechar -->
+
+	</div>
+	<!--CODIGO JAVASCRIPT -->
+	<script type="text/javascript">
+		function abre() 
+		{	
+			document.getElementById('main').style = "display: none" /*Torna o botao Abrir Invisivel */
+			document.getElementById('sec').style = "display: initial" /*Torna o botao Fechar Visivel */
+		}
+
+		function fecha() 
+		{
+			document.getElementById('sec').style = "display: none" /*Torna o botao Fechar Invisivel */
+			document.getElementById('main').style = "display: initial" /*Torna o botao Abrir Visivel */
+		}
+	</script>
+
+</body>
+</html>
